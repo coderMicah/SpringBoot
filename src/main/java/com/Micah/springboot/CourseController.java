@@ -10,7 +10,8 @@ public class CourseController {
 	public Course[] RetrieveAllCourses(){
 		return new Course[] {
 			    new Course(1,"Learn AWS","Udemy"),
-			    new Course(2,"Learn Spring & Spring Boot 3","Udemy")
+			    new Course(2,"Learn Spring & Spring Boot 3","Udemy"),
+			    new Course(3,"Learn Azure","Maximillian")
 			  };
 	}
 }
